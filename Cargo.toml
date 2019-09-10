@@ -1,0 +1,9 @@
+[package]
+name = "windows_message_box"
+version = "0.1.0"
+authors = ["HonjoRiki <honjoriki@outlook.com>"]
+edition = "2018"
+
+[dependencies.winapi]
+version = "0.3"
+features = ["winuser"]
